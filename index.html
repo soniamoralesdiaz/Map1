@@ -15,14 +15,14 @@
 
       <script type="text/javascript">
       var map = L.map('mymap', {
-          center: [41.9801992,-87.7198634],
+          center: [41.9864545,-87.7352995],
           zoom: 5
       });
-        L.tileLayer('http://tile.stamen.com/toner/{z}/{x}/{y}.png', {
-          attribution: 'Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.',
-          maxZoom: 18,
-          minZoom: 10
-        }).addTo(map);
+      L.tileLayer('http://tile.stamen.com/watercolor/{z}/{x}/{y}.png', {
+  attribution: 'Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL.',
+  maxZoom: 10,
+  minZoom: 4
+}).addTo(map);
       </script>
     </body>
 </html>
